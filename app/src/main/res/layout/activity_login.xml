@@ -46,17 +46,4 @@
         android:textAllCaps="false"
         android:textSize="25dp" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="422dp"
-        android:layout_height="120dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="430dp"
-        android:layout_marginEnd="183dp"
-        android:text="Sign Up"
-        android:textSize="25dp"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="183dp"
-        />
 </RelativeLayout>
