@@ -41,7 +41,7 @@ public class Login extends AppCompatActivity {
 String email=mail.getText().toString();
                 Matcher matcher = Pattern.compile(validemail).matcher(email);
                 if(matcher.matches()){
-                    Toast.makeText(getApplicationContext(), "true",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Login Successfulzsdfgdfgbx",Toast.LENGTH_LONG).show();
                 }
 
                 else{

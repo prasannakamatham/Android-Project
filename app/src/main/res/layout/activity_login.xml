@@ -1,39 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#9de7b6"
     android:orientation="vertical"
     android:padding="10dp"
-    android:background="#9de7b6"
     android:text="LOGIN"
     android:textSize="40dp"
-    android:layout_gravity="center"
     tools:context=".Login">
 
     <EditText
         android:id="@+id/email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:hint="Email id" />
+        android:layout_width="790dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="45dp"
+        android:hint="Email id"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp" />
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
         android:id="@+id/password"
+        android:layout_width="790dp"
+        android:layout_height="95dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
         android:hint="password"
-        android:layout_marginTop="5dp"
-        />
+        android:layout_alignParentRight="true" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:id="@+id/login"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="239dp"
+        android:layout_height="108dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="321dp"
         android:text="Login"
         android:textAllCaps="false"
-        android:id="@+id/login"
-        android:layout_gravity="center"
-        android:textSize="25dp"/>
-</LinearLayout>
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="422dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="430dp"
+        android:layout_marginEnd="183dp"
+        android:text="Sign Up"
+        android:textSize="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="183dp"
+        />
+</RelativeLayout>
