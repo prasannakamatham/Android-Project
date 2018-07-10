@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Employee Payroll System</string>
+    <string name="btn_save_payroll">10</string>
+    <string name="rb_label_fixed_base">10</string>
+    <string name="rb_label_commission_base">1</string>
+    <string name="rb_label_full_time">1</string>
+    <string name="rb_label_intern">1</string>
+    <string name="rb_label_part_time">1</string>
+    <string name="text_label_emp_info">1</string>
+    <string name="edit_hint_vehicle_name">1</string>
+    <string name="rb_label_bike">1</string>
+    <string name="rb_label_car">2</string>
+    <string name="text_vehicle_info">1</string>
+    <string name="cb_label_vehicle_avail">1</string>
+    <string name="edit_hint_emp_dob">1</string>
 </resources>

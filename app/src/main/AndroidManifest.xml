@@ -21,7 +21,9 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".Login" />
         <activity android:name=".HomeScreen" />
-        <activity android:name=".Userprofile"></activity>
+        <activity android:name=".Userprofile" />
+        <activity android:name=".DatabaseHelper" />
+        <activity android:name=".Add_EmpPayroll"></activity>
     </application>
 
 </manifest>
