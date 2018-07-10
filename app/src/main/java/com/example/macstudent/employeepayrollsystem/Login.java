@@ -24,12 +24,12 @@ public class Login extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Login();
+                new Login();
             }
 
         });
 
-    private void Login()
+    public void Login()
         {
             String name= mail.getText().toString().trim();
             String pass=password.getText().toString().trim();
