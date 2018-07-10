@@ -3,33 +3,95 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/colorAccent"
-    tools:context=".HomeScreen">
+    android:layout_height="176dp"
+    android:background="@drawable/ic_launcher_foreground"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
-    <RelativeLayout
-        android:gravity="center"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+
+    <LinearLayout
+        android:id="@+id/11TOp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></RelativeLayout>
-
-
-    <TextView
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="WELCOME HOME"
-        android:textSize="25dp"
+        android:gravity="center_vertical"
+        android:orientation="Horizontal"
+        android:layout_margin="5dp">
 
         <TextView
-            android:Layout_width="wrap_content"
+
+            android:id="@=id/txtCurrentDateAndTime"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textAppearence="?android:attr/textAppearenceLarge"
-            android:text="First Layout"
-            android:id=@+id/textView2"
-            android:Layout_alignParentTop="true"
-            android:Layout_centerHorizontal="true"
-            android:layout_marginTop="720dp"/>
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/side_nav_bar"
+            android:padding="10dp"
+            android:text="Add Employee Payroll"
+            android:textColor="@color/colorPrimary"
+            android:textSize="38sp"
+            android:textStyle="bold"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/side_nav_bar"
+            android:padding="10dp"
+            android:text="List payroll"
+            android:textcolor="@color/colorPrimary"
+            android:textSize="38sp"
+            android:textStyle="bold"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/side_nav_bar"
+            android:padding="10dp"
+            android:text="profile"
+            android:textColor="@colorcolorPrimary"
+            android:textSize="38sp"
+            android:textStyle="bold"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/side_nav_bar"
+            android:padding="10dp"
+            android:text="Help"
+            android:textcolor="@color/colorPrimary"
+            android:textSize="38sp"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:bacground="@drawable/side_nav_bar"
+            android:padding="10dp"
+            android:text="Logout"
+            android:textColor="@color/colorPrimary"
+            android:textSize="38sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
 
 </RelativeLayout>
